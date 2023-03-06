@@ -74,6 +74,20 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     basic.showLeds(`
         . . . . .
         . . . . .
+        . . . . #
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . # .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
         . . # . .
         . . . . .
         . . . . .
@@ -106,6 +120,7 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
         # # # # #
         # . # . #
         `)
+    basic.pause(500)
     basic.showLeds(`
         . # # # .
         # . # # #

@@ -58,6 +58,18 @@
         . . . . . 
         . . . . . 
         . . . . .
+        `</field><next><block type="device_show_leds" id="4cet[XAaO/aW*]nCF:dD"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="akO1k+LhU/uQ+8gJB5VH"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . . . . .
         `</field><next><block type="device_show_leds" id="swCdfIoh,@Tutj%ZKJ}1"><field name="LEDS">`
         . . . . . 
         . . . . . 
@@ -88,7 +100,7 @@
         # # # # # 
         # # # # # 
         # . # . #
-        `</field><next><block type="device_show_leds" id="OER`Zyi/INn)?X$7Bvmw"><field name="LEDS">`
+        `</field><next><block type="device_pause" id="sKkEYx`kL}XN~yWsVbb-"><value name="pause"><shadow type="timePicker" id="hb{c7SclI{C$|Xk7HQ-i"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="OER`Zyi/INn)?X$7Bvmw"><field name="LEDS">`
         . # # # . 
         # . # # # 
         # # # # # 
@@ -100,7 +112,7 @@
         # # # # # 
         # # # # # 
         # . # . #
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_selected_event" id="JkOT/1{b-RepX*B(s_{l" x="623" y="190"><field name="NAME">Button.B</field><value name="eventType"><shadow type="control_button_event_click" id="#sDu.RC1nr[1Es7a@}r("/></value><statement name="HANDLER"><block type="device_show_leds" id="bn#*O(-A*~p48uIos=x+"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_selected_event" id="JkOT/1{b-RepX*B(s_{l" x="623" y="190"><field name="NAME">Button.B</field><value name="eventType"><shadow type="control_button_event_click" id="#sDu.RC1nr[1Es7a@}r("/></value><statement name="HANDLER"><block type="device_show_leds" id="bn#*O(-A*~p48uIos=x+"><field name="LEDS">`
         . # # # . 
         # . # . # 
         # # # # # 
