@@ -62,6 +62,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
         . . . . .
         . . . . .
         `)
+    music.playMelody("E B C5 A B G A F ", 120)
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     basic.showLeds(`
@@ -201,6 +202,7 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         . . . . .
         . . . . .
         `)
+    music.playMelody("G B A G C5 B A B ", 120)
 })
 basic.forever(function () {
 	
